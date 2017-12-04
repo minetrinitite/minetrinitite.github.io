@@ -1,15 +1,16 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
   <head>
     <title>Tapefy</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	
-    <script src=".script.js"></script>
+    <script src="script.js"></script>
+	<script src="js/bootstrap.js"></script>
     <!-- Bootstrap CSS -->
-	<link rel="stylesheet" type="text/css" href=".steeal.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszu	E4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="steeal.css" media="screen" />
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet"  />
   </head>
   <body>
     <header>
@@ -29,15 +30,11 @@
               <a class="nav-link disabled" href="#">Disabled</a>
             </li>
           </ul>
-          <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
       </nav>
     </header>
 <main role="main">
-
+    
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -45,69 +42,93 @@
             <div class="container">
               <div class="carousel-caption">
                 <h1>Tapefy</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Wow tape</button></p>
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">I'm interested</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="recipient-name" class="col-form-label">Your email:</label>
-            <input type="text" class="form-control" id="recipient-name">
-          </div>
-          <div class="form-group">
-            <label for="message-text" class="col-form-label">What do you think:</label>
-            <textarea class="form-control" id="message-text"></textarea>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Send message</button>
-      </div>
-    </div>
-  </div>
-</div>
+                <p>You gonna get sticky</p>
+                <button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="order@tapefy.com">Wow tape</button>
+	
               </div>
             </div>
           </div>
         </div>
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLabel">I'm interested</h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		  </div>
+		  <div class="modal-body">
+			<form>
+			  <div class="form-group">
+				<label for="recipient-name" class="col-form-label">Your email:</label>
+				<input type="text" class="form-control" id="recipient-name">
+			  </div>
+			  <div class="form-group">
+				<label for="message-text" class="col-form-label">What do you think:</label>
+				<textarea class="form-control" id="message-text"></textarea>
+			  </div>
+			</form>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			<button type="button" class="btn btn-primary">Send message</button>
+		  </div>
+		</div>
+	  </div>
+	</div>	
+		
 <div class="container marketing">
 
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4">
-            <img class="rounded-circle" src="https://consejonutricion.files.wordpress.com/2015/11/bulimia-nerviosa.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>UTION CAUTION CAUTI</h2>
+            <img class="rounded-circle" src="https://consejonutricion.files.wordpress.com/2015/11/bulimia-nerviosa.jpg" alt="Very tough" width="140" height="140">
+            <h2 style="font-family:'Futura Condensed PT Medium';font-weight:normal;background-color:yellow">TION CAUTION CAUTION CAUTION CAU</h2>
             <p>Tapefy is so strong that NYPD uses it as handcuffs</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <img class="rounded-circle" src="https://lh4.googleusercontent.com/proxy/KlBXIQQQc32Ndeda2CYtjeFBKsggJZnTN3bCTWRdS3D0rvPWAbzhYvE25Nsv2-QwOCqmmlm1feCBGTriNhDzS_EQCRoUNAdGD5V9_K3NxFt5=w1200-h630-p-k-no-nu" alt="Generic placeholder image" width="140" height="140">
-            <h2>ERT ALERT ALERT ALERT</h2>
+            <img class="rounded-circle" src="https://lh4.googleusercontent.com/proxy/KlBXIQQQc32Ndeda2CYtjeFBKsggJZnTN3bCTWRdS3D0rvPWAbzhYvE25Nsv2-QwOCqmmlm1feCBGTriNhDzS_EQCRoUNAdGD5V9_K3NxFt5=w1200-h630-p-k-no-nu" alt="Very natural" width="140" height="140">
+            <h2 style="font-family:'Futura Condensed PT Medium';font-weight:normal;background-color:yellow">ALERT ALERT ALERT ALERT ALERT ALER</h2>
             <p>Tapefy is produced from seaweed, so keep vegans away</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <img class="rounded-circle" src="https://broke207.files.wordpress.com/2014/04/koffininstruction.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>ARNING WARNING WA</h2>
+            <img class="rounded-circle" src="https://broke207.files.wordpress.com/2014/04/koffininstruction.jpg" alt="Probably too easy" width="140" height="140">
+            <h2 style="font-family:'Futura Condensed PT Medium';font-weight:normal;background-color:yellow">ARNING WARNING WARNING WARNING</h2>
             <p>Tapefy is so simple that you can DIE from boredom using it</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
+		
+    <hr class="featurette-divider">
 
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">It's just a tape,<span class="text-muted"> but...</span></h2>
+            <p class="lead">Usually there is not so much someone can say about warning tape, but ours is an exception. There are so many different styles of tape in our warehouse, that even we haven't discovered all of them for now. <span class="text-muted">Actually, we make custom tape.</span></p>
+          </div>
+          <div class="col-md-5">
+			<object class="featurette-image img-fluid mx-auto" type="image/svg+xml" data="imag/tapepic.svg" width="500" height="500">
+            Your browser does not support SVG
+            </object>
+          </div>
+        </div>
 
+        <hr class="featurette-divider">
+
+    <div class="row">
+         <div class="col-xs-6 col-md-4"></div>
+         <button type="button" class="btn btn-outline-success col-xs-6 col-md-4" style="padding:0.5rem 2rem;font-size:2.5rem;line-height:1.2;border-radius:0.8rem;" data-toggle="modal" data-target="#exampleModal" data-whatever="order@tapefy.com">Tapefy me</button>
+    </div>
+	
+	
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<script src="https://getbootstrap.com/assets/js/docs.min.js"></script>
   </body>
 </html>
